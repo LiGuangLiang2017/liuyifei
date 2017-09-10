@@ -1,0 +1,122 @@
+		* {margin:0; padding:0;}
+		
+		body{overflow-x:scroll;overflow-y:scroll; }
+		
+       
+		#animated_div
+			{
+				width: 800;
+				height: 700px;
+
+				background:#00FFFF;
+
+				/*background-image:url("img/3.jpg"); */
+				/*background-size: 600px 600px;*/
+				background-repeat:repeat; 
+                animation:myfirst 4s;
+
+
+		}
+		@keyframes myfirst
+			{
+				
+				0%   {background:url("img/7.jpg");}
+				20%  {background:url("img/1.jpg");}
+				40%  {background:url("img/6.jpg");}
+				60% {background:url("img/5.jpg");}
+				80% {background:url("img/8.jpg");}
+				100% {background:url("img/4.jpg");}
+		    }
+	 	  .test{
+            /*background: #93FF93;*/
+            /*background-color: rgba(0, 0, 0, 0.4);  */
+            transition: width 1s,height 1s;
+           
+   
+        }
+        #div2 {
+			background: url("img/10.jpg");
+			background-repeat:no-repeat;
+			background-size: 1200px 800px;
+			color: #FDFFFF;
+		}	
+	 
+		#cd {
+			height: 50px;
+			background-color: #0080FF;
+
+		}
+
+		li{
+			font-size:30px;
+			list-style: none;
+			float: left;
+			margin: 15px;
+			line-height:20px;
+			color: #FFFFFF;
+			cursor:pointer;
+
+			 
+		}
+
+		a:hover {color: #F9F900;}
+
+		#show1 {
+		 
+			height: 800px;
+			background-color:#84C1FF;
+
+			clear:both;
+		}
+
+		#show2 {
+			width: 500px;
+			height: 600px;
+			background-color:red;
+			background:url("img/5.jpg");
+			background-size: 200px 300px;
+			background-repeat:no-repeat;
+		}
+			 
+
+		img {
+			margin-left: 30px;
+			width: 140px;
+			height: 170px;
+		}
+	    div.panel {
+	    	margin:0px;
+			padding:0px;
+			width: 1000px;
+			 color:blue;	
+			 background-color: #53FF53;		 
+			background:url("img/9.jpg");
+			opacity:0.8;
+			filter:"alpha(opacity=50)";
+			background-repeat:no-repeat;
+			 
+	    }
+
+	    div.panel
+		{
+			margin:0px;
+			padding:0px;
+			height:800px;
+			display:none;
+			}
+
+		#div3 {
+			width: 800px;
+			height: 700px;
+			/*background-color: blue;*/
+		}
+
+		.ta{
+			width: 700px;
+			height: 100px;
+		    background-color: #A6FFFF;
+
+
+		}
+
+		
